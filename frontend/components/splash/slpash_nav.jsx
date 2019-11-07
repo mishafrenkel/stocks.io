@@ -11,7 +11,7 @@ export default props => {
         <div className="splash-logo">
           <Logo />
         </div>
-        <span>Stocks.io</span>
+        <span>stocks.io</span>
       </a>
       <div className="splash-right">
         <Link className="login" to="/login">Log In</Link>

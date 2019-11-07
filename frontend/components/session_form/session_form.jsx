@@ -65,7 +65,7 @@ class SessionForm extends React.Component {
         </div>
         <div className="form-side">
           <div className="session-form-container">
-            <h2>Welcome to Stocks.io</h2>
+            <h2>Welcome to stocks.io</h2>
             <form onSubmit={this.handleSubmit}>
               <label><div>Email or Username</div>
                 <input className="text-input" required type="text" value={this.state.username} onChange={this.update("username")} />

@@ -3,7 +3,7 @@
 ## About
 [Live Demo](https://sherwoodapp.herokuapp.com?utm_source=readme&utm_medium=body)
 
-Stocks.io is a single-page fullstack stock trading platform featuring over 8,000 publicly traded companies complete with company information, real-time stock data, and interactive charts of stock and portfolio performance.
+stocks.io is a single-page fullstack stock trading platform featuring over 8,000 publicly traded companies complete with company information, real-time stock data, and interactive charts of stock and portfolio performance.
 
 ## Site Features
   * Account creation/User authentication
