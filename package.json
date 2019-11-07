@@ -40,8 +40,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack -w --mode=development",
-    "postinstall": "webpack"
+    "start": "webpack --mode=production",
+    "postinstall": "webpack",
+    "postdeploy": "npm run start"
   },
   "repository": {
     "type": "git",
