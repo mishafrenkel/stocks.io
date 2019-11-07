@@ -1,7 +1,7 @@
-# <img src="https://raw.githubusercontent.com/mishafrenkel/stocks.io/master/app/assets/images/sherwood_logo_green.png" width="40" height="40" /> Sherwood
+# <img src="https://raw.githubusercontent.com/mishafrenkel/stocks.io/master/app/assets/images/sherwood_logo_green.png" width="40" height="40" /> stocks.io
 
 ## About
-[Live Demo]()
+[Live Demo](https://stocks-io.herokuapp.com/#/demologin)
 
 stocks.io is a single-page fullstack stock trading platform featuring over 8,000 publicly traded companies complete with company information, real-time stock data, and interactive charts of stock and portfolio performance.
 
@@ -47,4 +47,3 @@ The final issue was showing five years of data if the user had no stocks as old 
 
 ## Technologies
 Stocks.io uses a Ruby on Rails backend with a PostgreSQL database to store non-real time external information such as certain stock details(company name, location, number of employees) as well as users, transactions, and watchlists. Sherwood's frontend is built in React/Redux, with chart data displayed using Recharts, Stock information provided by the [IEX API](https://iextrading.com/developer/docs/) and news provided by the [News Api](https://newsapi.org/).
-
