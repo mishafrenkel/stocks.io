@@ -1,4 +1,4 @@
-# <img src="#" width="40" height="40" /> Sherwood
+# <img src="https://raw.githubusercontent.com/mishafrenkel/stocks.io/master/app/assets/images/sherwood_logo_green.png" width="40" height="40" /> Sherwood
 
 ## About
 [Live Demo](https://sherwoodapp.herokuapp.com?utm_source=readme&utm_medium=body)
