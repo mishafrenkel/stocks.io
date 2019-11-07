@@ -38,7 +38,7 @@ export const createProfileCharts = (transactions, charts) => {
 ```
 The first issue was, of course, avoiding high runtimes as a user could have a massive volume of transactions over a five year period. Fortunately, because each chart can have up to around 1,200 data points, any manipulation of charts remains constant time. By calculating the number of each stock the user has each day, and iterating through each symbol of stocks owned that day, our algorithm is worst case O(m * n) where m is the number of transactions and n is the number of different stocks the user owns, as at most we iterate through m transactions and all n symbols the user owns for each of 1,200 days.
 
-Another early roadblock was lining up companies which hadn't been public the full five years. If company A went public four years ago, then their first chart data point will be on a different date from company B who went public five years ago. I came to the conclusion that the best solution was to simply reverse the charts to line them up, such that the first data point for both company A and B is yesterday.
+or both company A and B is yesterday.
 
 The final issue was showing five years of data if the user had no stocks as old as five years. Building a chart going back five years from scratch is a difficult affair because the stock market isn't open on weekends, so the length of the chart differs based on whether the user is viewing the chart on a weekday or weekend. By ensuring that my API call always returned data for Apple Inc., I was able to use that chart to build a 'base chart' of empty data points going back the required five years with the correct days no matter what day the user is viewing the chart on.
 
