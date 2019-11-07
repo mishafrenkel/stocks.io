@@ -15,7 +15,7 @@ Stocks.io is a single-page fullstack stock trading platform featuring over 8,000
   * Ability to 'buy' and 'sell' stocks within Sherwood's ecosystem.
 
 ### Profile Chart
-<img src="#"/>
+<img src="https://raw.githubusercontent.com/mishafrenkel/stocks.io/master/app/assets/images/gif-profile.gif"/>
 
 One of the most difficult portions of building Sherwood was creating an efficient algorithm to turn up to five years of user transactions into the one day to five year portfolio charts. After a number of different permutations I settled on the following algorithm:
 
@@ -43,7 +43,7 @@ Another early roadblock was lining up companies which hadn't been public the ful
 The final issue was showing five years of data if the user had no stocks as old as five years. Building a chart going back five years from scratch is a difficult affair because the stock market isn't open on weekends, so the length of the chart differs based on whether the user is viewing the chart on a weekday or weekend. By ensuring that my API call always returned data for Apple Inc., I was able to use that chart to build a 'base chart' of empty data points going back the required five years with the correct days no matter what day the user is viewing the chart on.
 
 ### Stock Details
-<img src="#"/>
+<img src="https://raw.githubusercontent.com/mishafrenkel/stocks.io/master/app/assets/images/gif-stock-page.gif"/>
 
 ## Technologies
 Stocks.io uses a Ruby on Rails backend with a PostgreSQL database to store non-real time external information such as certain stock details(company name, location, number of employees) as well as users, transactions, and watchlists. Sherwood's frontend is built in React/Redux, with chart data displayed using Recharts, Stock information provided by the [IEX API](https://iextrading.com/developer/docs/) and news provided by the [News Api](https://newsapi.org/).
