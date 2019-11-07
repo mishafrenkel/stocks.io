@@ -47,16 +47,3 @@ The final issue was showing five years of data if the user had no stocks as old 
 
 ## Technologies
 Stocks.io uses a Ruby on Rails backend with a PostgreSQL database to store non-real time external information such as certain stock details(company name, location, number of employees) as well as users, transactions, and watchlists. Sherwood's frontend is built in React/Redux, with chart data displayed using Recharts, Stock information provided by the [IEX API](https://iextrading.com/developer/docs/) and news provided by the [News Api](https://newsapi.org/).
-
-
-DATABASE_URL=postgres://epustmjkfckmzc:53e88740a20263bdd2892397198e21a6ac64d89706245549f6cbb99f6c3417e7@ec2-107-21-126-201.compute-1.amazonaws.com:5432/d37b5nim1r7nkd
-LANG=en_US.UTF-8
-USER=epustmjkfckmzc
-PASSWORD=53e88740a20263bdd2892397198e21a6ac64d89706245549f6cbb99f6c3417e7
-RACK_ENV=production
-RAILS_ENV=production
-RAILS_LOG_TO_STDOUT=enabled
-RAILS_MASTER_KEY=d361fcaeea800aa5a55508050b9965b4
-RAILS_SERVE_STATIC_FILES=enabled
-SECRET_KEY_BASE=85c79b56ed86af81f4e6b4f91944bcce883c2a0e0988b9a4778349046fc0e71b5ab2de8c6$
-secret_key_base=dc74bfd4fd31debfcdea407d18693d805d750acff218ae0b69cbec75f92422f3ff4da0283$
