@@ -1,0 +1,16 @@
+<% if current_user %>
+  <script type="text/javascript">
+    window.currentUser = <%= render(
+      "api/users/user.json.jb",
+      user: current_user
+    ).to_json.html_safe %></script>
+<% end %>
+<script type="text/javascript">
+  window.form_half = "<%= image_url('form_half.png') %>"
+  window.sherwood_logo_black = "<%= image_url('sherwood_logo_black.svg') %>"
+  window.sherwood_logo_green = "<%= image_url('sherwood_logo_green.png') %>"
+  window.splash_phones = "<%= image_url('splash_phones.png') %>"
+  window.stock_news = "<%= image_url('stock_news.jpg') %>"
+</script>
+
+<main id="root"><marquee>React is broke</marquee></main>

@@ -1,0 +1,119 @@
+.session-form{
+  display: flex;
+  height: 100%;
+}
+
+.form-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.session-form-container{
+  width: 412px;
+  box-sizing: border-box;
+  margin-left: 52px;
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  div{
+    padding: 9px 0;
+  }
+}
+
+
+.text-input{
+  padding: 9px 0;
+  background-color: $rh_lgrey;
+  height: 48px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border: 1px solid $rh_lgrey;
+  border-radius: 4px;
+  width: 412px;
+}
+
+.text-input:hover{
+  border-color: $rh_green;
+  background-color: white;
+  border-color: $rh_grey;
+}
+
+.text-input:focus{
+  border-color: $rh_green;
+  background-color: white;
+  outline: none;
+}
+
+.submit-button{
+  margin-top: 70px;
+  background-color: $rh_green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  width: 140px;
+  border-radius: 4px;
+  height: 48px;
+  padding: 0 48px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.25px;
+  line-height: 19px;
+}
+
+.submit-button:hover{
+  background-color: $rh_highlight;
+  cursor: pointer;
+}
+
+#error-container{
+  max-height: 0px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#error-container.grow{
+  max-height: 200px;
+  transition: max-height;
+  transition-duration: 300ms;
+}
+
+#session-errors{
+  display: flex;
+  padding-bottom: 0;
+  position: relative;
+}
+
+#error-text{
+  padding-top: 2px;
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 19px;
+  box-sizing: border-box;
+}
+
+#circle-text{
+  color: white!important;
+  font-size: 13px;
+  position: absolute;
+  font-weight: 600;
+  left: 6.5px;
+}
+
+#session-img{
+  width: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.demo-login{
+  margin-top: 20px;
+  padding: 0 35px;
+}
