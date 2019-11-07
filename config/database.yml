@@ -76,5 +76,5 @@ test:
 production:
   <<: *default
   database: fullstack_production
-  username: postgres
+  username: fullstack
   password: <%= ENV['FULLSTACK_DATABASE_PASSWORD'] %>
