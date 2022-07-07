@@ -12,7 +12,7 @@
     "jquery-ujs": "^1.2.2",
     "jsdom": "^13.2.0",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.23",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
